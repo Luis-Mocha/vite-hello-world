@@ -1,13 +1,15 @@
-<script setup>
-    // export default{
-    //     name: "AppTitle",
-    //     // data (){
-    //     //     return()
-    //     // },
-    //     // methods: {
+<script>
+    export default {
+        name: "AppTitle",
+        data () {
+            return{
 
-    //     // }
-    // }
+            }
+        },
+        methods: {
+
+        }
+    }
 </script>
 
 <template>
@@ -18,5 +20,10 @@
 <style scoped>
     h2 {
         color: red;
+    }
+
+    span {
+       display: block;
+       text-align: center;
     }
 </style>
